@@ -1,0 +1,136 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the defaault sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Hrishikesh}{Barman}
+\address{Narengi Tiniali VIP Road, House no 295}{Guwahati}{Assam, India}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91~(8486)~2948~64}                   % optional, remove / comment the line if not wanted
+\email{hrishikeshbman@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{geekodour.github.io}
+% optional, remove / comment the line if not wanted
+\quote{
+Creative thinker with a knack for problem solving, comfortable working individually as well as in a team.
+}
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Work Experience}
+
+\cvitem{2015 Nov - Present}{\textbf{Freelance Fullstack WebDeveloper -}
+Developed WebApplications and Browser Extensions for several clients. Technology stack used:
+HTML, CSS, JavaScript, AngularJS, React, Redux, ExpressJs, Django, Flask, MongoDB, PostgreSQL, SQlite3, Celery, Nginx
+}
+
+\cvitem{2015 Nov - Present}{\textbf{Freelance WebMiner -}
+Developed several bots, scrapers, crawlers to modify and extract information on and from numerous websites, webapps and social media sites. Technology stack used: Scrapy, Selenium, PhantomJS, CasperJS, SocialMediaAPIs, Python Patterns, D3Js, BS4, MongoDB, SQlite3.
+}
+
+\cvitem{2016 Jul - Present}{\textbf{Systems Admin and Technical writer, Snoozepost -}
+Responsible for keeping the servers healthy and running automating tasks.
+Technology stack used: Wordpress, PHP, Ansible, Vagrant, AWS, Nginx
+}
+
+\cvitem{2016 Nov - 2017 Feb}{\textbf{Remote Fullstack Developer, Innolearn -}
+Developed a NLP solution from scratch to generate accounting journal entries from plain questions. Technology stack used: Python, Django, DRF, React, Redux, AWS, Nginx, Python Spacy, Python Patterns
+}
+
+\section{Positions and Responsibilities}
+
+\cvitem{2017 May - Present}{\textbf{Campus Club Captain, Mozilla -}
+Manages and Conducts various events related to OpenSource and Mozilla at the CodingClubGIMT
+}
+
+\cvitem{2017 May - Present}{\textbf{Student Partner, Microsoft -}
+Active participation in organizing events related to emerging technologies at and off campus
+}
+
+\section{Education}
+\cventry{2015 - 2019}{B.Tech in Computer Science and Engineering}{GIMT Guwahati}{Assam, India}{}{Currently in 3rd Year}
+
+
+\section{Technical Interests}
+\cvitem{}{OpenSource, Web applications, Information extraction, Data mining, NLP, Systems programming, Network programming, Computer Networks, System administration and Distributed systems.}
+
+\clearpage
+
+\section{Community Activities}
+\cventry{2017-Present}{OpenSource Contributor}{}{}{}
+{
+Contributions to open source for both individual projects and bigger projects like Firefox,Thunderbird, Django
+}
+\cventry{2017-Present}{DG-Plug Community Member}{}{}{}
+{
+Participation in discussions related to opensource and online privacy in India
+}
+\cventry{2012 - 2015}{Cisco Learning Network Member}{}{}{}{Active participation is discussions related to computer networks
+}
+
+\section{Skills}
+\cvitem{Platforms}{Linux, Windows}
+\cvitem{Languages}{Python, JavaScript, C, C++, C++ STL, Bash, Sed, Awk, PHP}
+\cvitem{Web}{ReactJS, AngularJS, Django, Flask, NodeJS, Modern Build Systems}
+\cvitem{DBMS}{MongoDB, MySQL, PostgreSQL, SQLite}
+\cvitem{VCS}{Git, Mercurial}
+\cvitem{Data}{Scrapy, Selenium, PhantomJS, D3, BS4, Pandas}
+\cvitem{Operations}{CI,AWS,Celery,Vagrant,Ansible}
+\cvitem{Others}{\LaTeX, Data Structures, Algorithms, Operating Systems, Systems Programming, Network Programming, Automation Scripts, Regular Expressions}
+
+\section{Honors \& Awards}
+\cventry{2017}{PwC Track Winner}{}{Hack2Innovate Deep Tech Hackathon by Nvidia and PwC}{}{}
+\cventry{2017}{Honorable Mentions}{}{DMCH - Countering online extremism by Facebook\&YKA}{}{}
+\cventry{2014}{Winner}{}{Esplendidez Paper Presentation on WhatsApp vulnerability}{}{}
+\cventry{2012}{Honorable Mentions}{}{NASA Ames Space Settlement Contest}{}{}
+
+\section{Projects}
+\cvitem{2017}{\textbf{GitPushBlog} A static blog generator in JavaScript using the GithubAPI and issues with different automation scripts like Jekyll
+}
+\cvitem{2017}{\textbf{WannaSmile} A simple windows service that defends a Windows machine against WannaCry once installed, got numerous media mentions.
+}
+\cvitem{2016}{\textbf{NewsMap} Map generation based on news sentiment scores extracted from headlines of different countries
+}
+\cvitem{2017}{\textbf{MarkMyMind} Converts markdown text into a D3 mindmap using a custom markdown parser
+}
+\cvitem{2017}{\textbf{StockPrediction}
+Predicted stock fluctuations based on user sentiments about \#Amazon on twitter.
+}
+
+\section{Extracurricular Activities}
+\cvitem{2007 - 2013}{District Badminton Player}
+
+\end{document}
