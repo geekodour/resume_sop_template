@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2017.11.15)  21 JUN 2018 22:50
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2017.11.15)  28 JUN 2018 00:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,19 +682,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
  [2
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
  18969 strings out of 493010
  326750 string characters out of 6140133
- 413117 words of memory out of 5000000
+ 414117 words of memory out of 5000000
  22799 multiletter control sequences out of 15000+600000
  590373 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
